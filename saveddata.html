@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saved-Link</title>
+    <!-- Stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body onload='render()'>
+    <main class="content">
+        <h2 class="subtitle">Saved Link</h2>
+        <table class="table">
+            <thead class="header">
+                <tr> <th>keyCode</th> </tr>
+            </thead>
+            <tbody class="content" id="output"></tbody>
+        </table>
+    </main>
+</body>
+
+</html>
+
+<style>
+    body{	
+        margin:0;
+        background: #c8c8c8;
+        font-family: 'Oswald' , sans-serif;
+        text-align: center;
+    }
+    
+    *,:after,:before{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .table {
+      clear: both;
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .table th,
+    .table td {
+      padding: 0.5em;
+    }
+    .table > .header th {
+      border: 1px solid #999;
+    }
+</style>
+
+<script>
+    var x = localStorage.getItem("mytime");
+
+    function render(leads) {
+        localStorage.getItem(keyname)
+    }
+
+    // if (leadsFromLocalStorage) {
+    //     myLeads = leadsFromLocalStorage
+    //     render(myLeads)
+    // }
+    // let listItems = ""
+    //     for (let i = 0; i < leads.length; i++) {
+    //         listItems += `
+    //             <li>
+    //                 <a target='_blank' href='${leads[i]}'>
+    //                     ${leads[i]}
+    //                 </a>
+    //             </li>
+    //         `
+    //     }
+    //     ulEl.innerHTML = listItems
+
+</script>
