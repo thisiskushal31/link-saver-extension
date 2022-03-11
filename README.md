@@ -34,9 +34,7 @@ The app can be deployed on your browser navigating to chrome://extensions/ and c
 
 # Screenshots
 
-[CodePen]()
-
-![App Screenshot]()
+![App Screenshot](https://github.com/thisiskushal31/link-saver-extension/blob/main/images/Web_output.png?raw=true)
 
 # 🚀 About Me
 
