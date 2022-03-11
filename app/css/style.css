@@ -4,7 +4,7 @@
 body{	
     margin:0;
 	background: #c8c8c8;
-    background: linear-gradient(90deg, #00c6ff 10%, #0072ff 90%);
+    background: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -95,4 +95,20 @@ body{
 .button:hover span:after {
 	opacity: 1;
 	right: 0;
+}
+
+/* ------ Saved link Style ------- */
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #202229;
 }

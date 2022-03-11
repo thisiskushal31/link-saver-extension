@@ -1,3 +1,4 @@
 # Link Saver Extension
 
-This is a the chrome extension enable user to links
+LinkSaver is a chrome extension that saves all your tabs. LinkSave will save all of the tabs in the currently active chrome window into your bookmarks. We created this app to help you keep track of all the tabs you want to read one day.
+
