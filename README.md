@@ -21,7 +21,7 @@ git clone https://github.com/thisiskushal31/link-saver-extension.git
 
 - Once that's done, open the project on the vs code:
 ```
-right click-> open with live server (depend on extension you eill use)
+right click-> open with live server (depend on extension you will use)
 ```
 
 # Deployment
